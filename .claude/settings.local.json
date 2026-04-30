@@ -10,7 +10,16 @@
       "mcp__context7__resolve-library-id",
       "mcp__context7__query-docs",
       "Bash(claude --version)",
-      "Bash(dotnet build:*)"
+      "Bash(dotnet build:*)",
+      "Bash(git config *)",
+      "Bash(where git-credential-manager *)",
+      "Bash(git --version)",
+      "Bash(git credential-manager *)",
+      "Bash(cmdkey /list)",
+      "Bash(awk -F= '{print $1}')",
+      "PowerShell(cmdkey *)",
+      "PowerShell(cmd /c 'cmdkey /delete:\"LegacyGeneric:target=GitHub for Visual Studio - https://yasensimeonov@github.com/\"')",
+      "Bash(GCM_INTERACTIVE=never GCM_TRACE=1 git credential-manager get)"
     ]
   },
   "enableAllProjectMcpServers": true,
