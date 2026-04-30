@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(claude mcp add --scope project context7 -- npx -y @upstash/context7-mcp@latest)",
+      "Bash(npx --version)",
+      "Bash(where claude)",
+      "Bash(dotnet --version)",
+      "Bash(dotnet tool list -g)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "Bash(claude --version)",
+      "Bash(dotnet build:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "context7"
+  ]
+}
