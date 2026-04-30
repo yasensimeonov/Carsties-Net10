@@ -5,4 +5,5 @@
   <Folder Name="/src/">
     <Project Path="src/AuctionService/AuctionService.csproj" />
   </Folder>
+  <Project Path="src/SearchService/SearchService.csproj" Id="671ef661-b728-4c07-bb9c-f681e790e728" />
 </Solution>
